@@ -1,0 +1,390 @@
+*{
+	padding: 0;
+	margin: 0;	
+	
+}
+.navegacion{
+    
+    margin: 0px;
+    background: rgb(176, 140, 48);
+    color: blanchedalmond;
+   
+    
+
+}
+.navegacion ul{
+    list-style: none;
+}
+
+@media only screen and (max-width: 32.5em){
+    .menu li:first-child {
+    display: block;
+    
+}
+.menu li {
+    display: none;
+   
+}
+.menu a {
+    display: block;
+    
+
+    color: #fff;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: rgb(110, 40, 40);
+    transition: all .3s;
+}
+.submenu{
+    position: relative;
+    background-color: rgb(176, 140, 48);
+    display: none;
+    text-align: right;
+    
+}
+.submenu li a{
+    display: inline-block;
+    width: 80%;
+    padding: 15px;
+    color: white;
+   
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    display: inline;
+    
+
+}
+}
+
+
+.responsive li {
+    display: block;
+}
+
+@media only screen and (min-width: 32.5em) {
+    
+
+
+    /***/
+    .menu {
+        display: flex;
+    }
+    .menu a:hover {
+        color: rgb(110, 40, 40);
+        transition: all .3s;
+    }
+    .menu li:first-child {
+        display: none;
+    }
+    .menu >li{
+        position: relative;
+        display: inline-block;
+        margin: 10px;
+    }
+    .menu > li > a{
+        display: block;
+        padding: 15px 20px;
+        color: rgb(255, 255, 255);
+        
+        text-decoration: none;
+    }
+    .submenu{
+        position: absolute;
+        background-color: rgb(176, 140, 48);
+        display: none;
+        
+    }
+    .submenu li a{
+        display: block;
+        width: 80%;
+        padding: 15px;
+        color: white;
+       
+        text-decoration: none;
+    }
+    .menu li:hover .submenu{
+        display: block;
+        
+        
+    
+    }
+    
+
+	
+    
+}
+/******************desde aqui***/
+
+header img{
+    position: absolute;
+    top: 30px;
+    right: 0%;
+    height: 37%;
+
+   
+}
+
+main {
+	/*font-family: 'Open Sans', sans-serif;*/
+	/*background: #000 url('imagenes/fondo.jpg');*/
+	background-size: cover;
+    background-attachment: fixed;
+    align-content:center;
+}
+.bienvenida{
+    background: rgb(26, 24, 24) url(/TecnologiaWebI/Proyecto_Final_con_CSS/IMAGENES/inicio_6.jpg);
+    background-size: cover;
+    height: 700px;
+    
+}
+.texto-bienvenida{
+   /* text-align: center;*/
+    color:white;
+    font-size: 60px;
+    
+    text-align: center;
+    text-decoration: wavy;
+    position: relative;
+    top: 180px;
+    background: black;
+    opacity: 0.5;
+   
+  
+}
+.presentacion{
+    width: 50%;
+   height: 350px;
+   font-size: 20px;
+   text-align: center;
+    background:white;
+    margin: 40px;
+    padding: 50px;
+
+    position: relative;
+    top: -100px;
+    left: 20%;
+    
+    
+}
+.presentacion h2{
+    font-size: 50px;
+}
+.galeria{
+    width: 100%;
+}
+.galeria img {
+    vertical-align: top;
+    margin: 15px;
+    width: 400px;
+    height: 260px;
+    padding: 5px;
+
+
+}
+/***********/
+.sugerencias{
+    background: rgba(255, 255, 255, 0.911);
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.com-normales{
+    background:rgba(255, 255, 255, 0.911);
+    width: 30%;
+    text-align: start;
+    
+    padding: 20px;
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+}
+.img-normal img{
+    
+    margin: 20px;
+    width: 400px;
+    height: 260px;
+    padding: 20px;
+}
+/***************/
+.sugerencias2{
+    background: rgb(241, 230, 233);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    
+
+}
+.com-vegana{
+    background:rgb(241, 230, 233);
+    width: 30%;
+    text-align: start;
+    
+    padding: 40px;
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+}
+
+/***********/
+
+.sugerencias3{
+    background:white;
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+.com-especial{
+    background:white;
+    width: 30%;
+    text-align: start;
+    
+    padding: 40px;
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+}
+/***********/
+.info{
+    background:  rgb(241, 230, 233);
+    display: flex;
+    justify-content: space-around;
+
+}
+.propietario{
+    background: rgb(241, 230, 232);
+    width: 30%;
+    text-align: center;
+    padding: 150px;
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+}
+footer{
+    background: rgb(10, 9, 9);
+    color: blanchedalmond;
+    font-size: 20px;
+    
+}
+@media screen and (max-width:769px) {
+	.texto-bienvenida h2{
+        font-size: 60%;
+    }
+    .texto-bienvenida h4{
+        font-size: 50%;
+    }
+    .caja h2{
+        font-size: 22px;
+       
+    }
+   
+
+    .presentacion{
+        width: 30%;
+        height: 350px;
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    .galeria img {
+        
+        margin: 10px;
+        width: 300px;
+        height: 260px;
+        padding: 5px;
+        
+    
+    
+    }
+    .sugerencias,.sugerencias2,.sugerencias3,.info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .com-normales,.com-vegana,.com-especial{
+        text-align: center;
+    }
+    .img-normal img{
+    
+        margin: 20px;
+        width: 350px;
+        height: 260px;
+        padding: 20px;
+        
+    }
+    
+    
+    .propietario{
+        width: 36%;
+    }
+    
+    
+    
+    
+    
+    
+}
+
+@media screen and (max-width:380px) {
+    
+	.texto-bienvenida h2{
+        font-size: 60%;
+    }
+    .texto-bienvenida h4{
+        font-size: 50%;
+    }
+    .caja h2{
+        font-size: 22px;
+       
+    }
+   
+
+    .presentacion{
+        width: 30%;
+        height: 350px;
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    .galeria img {
+        
+        margin: 10px;
+        width: 200px;
+        height: 160px;
+        padding: 5px;
+    
+    
+    }
+
+    .img-normal img{
+    
+        margin: 20px;
+        width: 200px;
+        height: 160px;
+        padding: 20px;
+    }
+    
+    .sugerencias,.sugerencias2,.sugerencias3{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        
+    }
+    .info{
+        flex-direction: column;
+        width: 86%;
+    }
+    
+    
+    
+    
+    
+    
+}
+

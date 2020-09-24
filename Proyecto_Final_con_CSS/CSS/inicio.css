@@ -16,37 +16,36 @@
     list-style: none;
 }
 
-@media only screen and (max-width: 32.5em){
-    .menu li:first-child {
-    display: block;
-    
-}
-.menu li {
-    display: none;
-   
-}
-.menu a {
-    display: block;
-    
-
-    color: #fff;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration: none;
+.menu {
+    display: flex;
 }
 .menu a:hover {
     color: rgb(110, 40, 40);
     transition: all .3s;
 }
-.submenu{
+.menu li:first-child {
+    display: none;
+}
+.menu >li{
     position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+    
+    text-decoration: none;
+}
+.submenu{
+    position: absolute;
     background-color: rgb(176, 140, 48);
     display: none;
-    text-align: right;
     
 }
 .submenu li a{
-    display: inline-block;
+    display: block;
     width: 80%;
     padding: 15px;
     color: white;
@@ -54,68 +53,10 @@
     text-decoration: none;
 }
 .menu li:hover .submenu{
-    display: inline;
-    
-
-}
-}
-
-
-.responsive li {
     display: block;
-}
-
-@media only screen and (min-width: 32.5em) {
+    
     
 
-
-    /***/
-    .menu {
-        display: flex;
-    }
-    .menu a:hover {
-        color: rgb(110, 40, 40);
-        transition: all .3s;
-    }
-    .menu li:first-child {
-        display: none;
-    }
-    .menu >li{
-        position: relative;
-        display: inline-block;
-        margin: 10px;
-    }
-    .menu > li > a{
-        display: block;
-        padding: 15px 20px;
-        color: rgb(255, 255, 255);
-        
-        text-decoration: none;
-    }
-    .submenu{
-        position: absolute;
-        background-color: rgb(176, 140, 48);
-        display: none;
-        
-    }
-    .submenu li a{
-        display: block;
-        width: 80%;
-        padding: 15px;
-        color: white;
-       
-        text-decoration: none;
-    }
-    .menu li:hover .submenu{
-        display: block;
-        
-        
-    
-    }
-    
-
-	
-    
 }
 /******************desde aqui***/
 
