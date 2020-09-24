@@ -15,31 +15,33 @@
 .navegacion ul{
     list-style: none;
 }
-.menu >li{
-    position: relative;
-    display: inline-block;
-    margin: 10px;
+.menu li:first-child {
+	display: block;
 }
-.menu > li > a{
+.menu li {
+	display: none;
+}
+.menu a {
     display: block;
-    padding: 15px 20px;
-    color: rgb(255, 255, 255);
-    
-    text-decoration: none;
+
+	color: #fff;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
 }
-.menu li a:hover{
+.menu a:hover {
     color: rgb(110, 40, 40);
     transition: all .3s;
-
 }
 .submenu{
-    position: absolute;
+    position: relative;
     background-color: rgb(176, 140, 48);
     display: none;
+    text-align: right;
     
 }
 .submenu li a{
-    display: block;
+    display: inline-block;
     width: 80%;
     padding: 15px;
     color: white;
@@ -47,10 +49,57 @@
     text-decoration: none;
 }
 .menu li:hover .submenu{
-    display: block;
+    display: inline;
     
 
 }
+.responsive li {
+	display: block;
+}
+
+
+@media only screen and (min-width: 32.5em) {
+	.menu {
+		display: flex;
+	}
+	.menu li:first-child {
+		display: none;
+	}
+	.menu >li{
+        position: relative;
+        display: inline-block;
+        margin: 10px;
+    }
+    .menu > li > a{
+        display: block;
+        padding: 15px 20px;
+        color: rgb(255, 255, 255);
+        
+        text-decoration: none;
+    }
+    .submenu{
+        position: absolute;
+        background-color: rgb(176, 140, 48);
+        display: none;
+        
+    }
+    .submenu li a{
+        display: block;
+        width: 80%;
+        padding: 15px;
+        color: white;
+       
+        text-decoration: none;
+    }
+    .menu li:hover .submenu{
+        display: block;
+        
+    
+    }
+	
+    
+}
+
 header img{
     position: absolute;
     top: 30px;
@@ -198,6 +247,51 @@ footer{
     background: rgb(10, 9, 9);
     color: blanchedalmond;
     font-size: 20px;
+    
+}
+@media screen and (max-width:700px) {
+	.texto-bienvenida h2{
+        font-size: 60%;
+    }
+    .texto-bienvenida h4{
+        font-size: 50%;
+    }
+    .presentacion h2{
+        font-size: 22px;
+       
+    }
+   
+
+    .presentacion{
+        width: 30%;
+        height: 350px;
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    .galeria img {
+        
+        margin: 10px;
+        width: 200px;
+        height: 160px;
+        padding: 5px;
+    
+    
+    }
+
+    .img-normal img{
+    
+        margin: 20px;
+        width: 200px;
+        height: 160px;
+        padding: 20px;
+    }
+    
+    .sugerencias,.sugerencias2,.sugerencias3,.info{
+        
+        display: flex;
+        flex-direction: column;
+    }
     
 }
 
