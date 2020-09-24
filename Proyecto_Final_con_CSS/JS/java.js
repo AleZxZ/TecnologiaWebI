@@ -1,4 +1,4 @@
 function MenuDesplegable() {
 	document.getElementsByClassName
-	("menu")[0].classList.toggle("responsive");
+	("navegacion")[0].classList.toggle("responsive");
 }

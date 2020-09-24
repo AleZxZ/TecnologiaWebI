@@ -15,19 +15,24 @@
 .navegacion ul{
     list-style: none;
 }
-.menu li:first-child {
-	display: block;
+
+@media only screen and (max-width: 32.5em){
+    .menu li:first-child {
+    display: block;
+    
 }
 .menu li {
-	display: none;
+    display: none;
+   
 }
 .menu a {
     display: block;
+    
 
-	color: #fff;
-	padding: 0.75rem;
-	text-align: left;
-	text-decoration: none;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
 }
 .menu a:hover {
     color: rgb(110, 40, 40);
@@ -53,19 +58,29 @@
     
 
 }
-.responsive li {
-	display: block;
 }
 
 
+.responsive li {
+    display: block;
+}
+
 @media only screen and (min-width: 32.5em) {
-	.menu {
-		display: flex;
-	}
-	.menu li:first-child {
-		display: none;
-	}
-	.menu >li{
+    
+
+
+    /***/
+    .menu {
+        display: flex;
+    }
+    .menu a:hover {
+        color: rgb(110, 40, 40);
+        transition: all .3s;
+    }
+    .menu li:first-child {
+        display: none;
+    }
+    .menu >li{
         position: relative;
         display: inline-block;
         margin: 10px;
@@ -94,11 +109,15 @@
     .menu li:hover .submenu{
         display: block;
         
+        
     
     }
+    
+
 	
     
 }
+/******************desde aqui***/
 
 header img{
     position: absolute;
@@ -249,14 +268,76 @@ footer{
     font-size: 20px;
     
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:769px) {
 	.texto-bienvenida h2{
         font-size: 60%;
     }
     .texto-bienvenida h4{
         font-size: 50%;
     }
-    .presentacion h2{
+    .caja h2{
+        font-size: 22px;
+       
+    }
+   
+
+    .presentacion{
+        width: 30%;
+        height: 350px;
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    .galeria img {
+        
+        margin: 10px;
+        width: 300px;
+        height: 260px;
+        padding: 5px;
+        
+    
+    
+    }
+    .sugerencias,.sugerencias2,.sugerencias3,.info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .com-normales,.com-vegana,.com-especial{
+        text-align: center;
+    }
+    .img-normal img{
+    
+        margin: 20px;
+        width: 350px;
+        height: 260px;
+        padding: 20px;
+        
+    }
+    
+    
+    .propietario{
+        width: 36%;
+    }
+    
+    
+    
+    
+    
+    
+}
+
+@media screen and (max-width:380px) {
+    
+	.texto-bienvenida h2{
+        font-size: 60%;
+    }
+    .texto-bienvenida h4{
+        font-size: 50%;
+    }
+    .caja h2{
         font-size: 22px;
        
     }
@@ -287,11 +368,23 @@ footer{
         padding: 20px;
     }
     
-    .sugerencias,.sugerencias2,.sugerencias3,.info{
+    .sugerencias,.sugerencias2,.sugerencias3{
         
         display: flex;
         flex-direction: column;
+        width: 100%;
+        
+        
     }
+    .info{
+        flex-direction: column;
+        width: 86%;
+    }
+    
+    
+    
+    
+    
     
 }
 
