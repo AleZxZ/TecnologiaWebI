@@ -18,46 +18,49 @@
 
 @media only screen and (max-width: 32.5em){
     .menu li:first-child {
-    display: block;
+      display: block;
     
-}
-.menu li {
-    display: none;
-   
-}
-.menu a {
-    display: block;
+    }
+    .menu li {
+        display: none;
     
+    }
+    .menu a {
+        display: block;
+        
 
-    color: #fff;
-    padding: 0.75rem;
-    text-align: left;
-    text-decoration: none;
-}
-.menu a:hover {
-    color: rgb(110, 40, 40);
-    transition: all .3s;
-}
-.submenu{
-    position: relative;
-    background-color: rgb(176, 140, 48);
-    display: none;
-    text-align: right;
-    
-}
-.submenu li a{
-    display: inline-block;
-    width: 80%;
-    padding: 15px;
-    color: white;
-   
-    text-decoration: none;
-}
-.menu li:hover .submenu{
-    display: inline;
-    
+        color: #fff;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+    }
+    .menu a:hover {
+        color: rgb(110, 40, 40);
+        transition: all .3s;
+    }
+    .submenu{
+        position: relative;
+        background-color: rgb(176, 140, 48);
+        display: none;
+        text-align: right;
+        
+    }
+    .submenu li a{
+        display: inline-block;
+        width: 70%;
+        padding: 10px;
+        
 
-}
+        color: white;
+    
+        text-decoration: none;
+    }
+    .menu li:hover .submenu{
+        display: inline;
+        
+
+    }
+    
 }
 
 
@@ -69,7 +72,7 @@
     
 
 
-    /***/
+    
     .menu {
         display: flex;
     }
@@ -100,8 +103,8 @@
     }
     .submenu li a{
         display: block;
-        width: 80%;
-        padding: 15px;
+        width: 130px;
+        padding: 12px;
         color: white;
        
         text-decoration: none;
@@ -119,11 +122,13 @@
 }
 /******************desde aqui***/
 
-header img{
+.logopricipal img{
     position: absolute;
-    top: 30px;
+    top: 35px;
     right: 0%;
     height: 37%;
+    
+
 
    
 }
@@ -136,7 +141,7 @@ main {
     align-content:center;
 }
 .bienvenida{
-    background: rgb(26, 24, 24) url(/TecnologiaWebI/Proyecto_Final_con_CSS/IMAGENES/inicio_6.jpg);
+    background: rgb(26, 24, 24) url(/TecnologiaWebI/Proyecto_Final_menu_responsive/IMAGENES/inicio_6.jpg);
     background-size: cover;
     height: 700px;
     
@@ -268,25 +273,37 @@ footer{
     font-size: 20px;
     
 }
-@media screen and (max-width:769px) {
+
+@media screen and (max-width:768px) {
+
+    .logopricipal img{
+        position: absolute;
+        top: 45px;
+        height: 27%;
+     
+    }
 	.texto-bienvenida h2{
-        font-size: 60%;
+        font-size: 100%;
     }
     .texto-bienvenida h4{
-        font-size: 50%;
+        font-size: 80%;
     }
-    .caja h2{
+    /*.caja h2{
         font-size: 22px;
        
-    }
+    }*/
    
 
     .presentacion{
-        width: 30%;
-        height: 350px;
-        font-size: 15px;
-        text-align: center;
-        
+        width: 45%;
+        height: 370px;
+       
+    }
+    .presentacion h2{
+        font-size: 32px;
+    }
+    .presentacion p{
+        font-size: 22px;
     }
     .galeria img {
         
@@ -308,6 +325,12 @@ footer{
     .com-normales,.com-vegana,.com-especial{
         text-align: center;
     }
+    .com-normales h2,.com-vegana h2,.com-especial h2{
+        font-size: 32px;
+    }
+    .com-normales p,.com-vegana p,.com-especial p{
+        font-size: 22px;
+    }
     .img-normal img{
     
         margin: 20px;
@@ -328,8 +351,24 @@ footer{
     
     
 }
+@media screen and (max-width:520px){
+    .logopricipal img{
+        position: absolute;
+        top: 20px;
+        height: 27%;
+     
+    }
+
+}
 
 @media screen and (max-width:380px) {
+
+   /* .logopricipal img{
+        position: absolute;
+        top: 25px;
+        height: 27%;
+     
+    }*/
     
 	.texto-bienvenida h2{
         font-size: 60%;
