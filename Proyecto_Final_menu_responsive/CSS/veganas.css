@@ -1,0 +1,311 @@
+*{
+	padding: 0;
+	margin: 0;	
+	
+}
+.navegacion{
+    
+    margin: 0px;
+    background: rgb(176, 140, 48);
+    color: blanchedalmond;
+   
+    
+
+}
+.navegacion ul{
+    list-style: none;
+}
+
+@media only screen and (max-width: 32.5em){
+    .menu li:first-child {
+      display: block;
+    
+    }
+    .menu li {
+        display: none;
+    
+    }
+    .menu a {
+        display: block;
+        
+
+        color: #fff;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+    }
+    .menu a:hover {
+        color: rgb(110, 40, 40);
+        transition: all .3s;
+    }
+    .submenu{
+        position: relative;
+        background-color: rgb(176, 140, 48);
+        display: none;
+        text-align: right;
+        
+    }
+    .submenu li a{
+        display: inline-block;
+        width: 70%;
+        padding: 10px;
+        
+
+        color: white;
+    
+        text-decoration: none;
+    }
+    .menu li:hover .submenu{
+        display: inline;
+        
+
+    }
+    
+}
+
+
+.responsive li {
+    display: block;
+}
+
+@media only screen and (min-width: 32.5em) {
+    
+
+
+    
+    .menu {
+        display: flex;
+    }
+    .menu a:hover {
+        color: rgb(110, 40, 40);
+        transition: all .3s;
+    }
+    .menu li:first-child {
+        display: none;
+    }
+    .menu >li{
+        position: relative;
+        display: inline-block;
+        margin: 10px;
+    }
+    .menu > li > a{
+        display: block;
+        padding: 15px 20px;
+        color: rgb(255, 255, 255);
+        
+        text-decoration: none;
+    }
+    .submenu{
+        position: absolute;
+        background-color: rgb(176, 140, 48);
+        display: none;
+        
+    }
+    .submenu li a{
+        display: block;
+        width: 130px;
+        padding: 12px;
+        color: white;
+       
+        text-decoration: none;
+    }
+    .menu li:hover .submenu{
+        display: block;
+        
+        
+    
+    }
+    
+
+	
+    
+}
+.logopricipal img{
+    position: absolute;
+    top: 35px;
+    right: 0%;
+    height: 37%;
+    
+
+
+   
+}
+main {
+	/*font-family: 'Open Sans', sans-serif;*/
+	
+	background-size: cover;
+    background-attachment: fixed;
+    align-content:center;
+}
+.bienvenida{
+    background: rgb(26, 24, 24) url(/TecnologiaWebI/Proyecto_Final_menu_responsive/IMAGENES/menu-fondo.jpg);
+    background-size: cover;
+    height: 700px;
+    
+}
+.texto-bienvenida{
+   
+    color:white;
+    font-size: 60px;
+    
+    text-align: center;
+    text-decoration: wavy;
+    position: relative;
+    top: 180px;
+    background: black;
+    opacity: 0.5;
+   
+  
+}
+.sugerencias{
+    background: rgba(255, 255, 255, 0.911);
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.com-normales{
+    background:rgba(255, 255, 255, 0.911);
+    width: 30%;
+    text-align: start;
+    
+    padding: 20px;
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+}
+.img-normal img{
+    
+    margin: 20px;
+    width: 400px;
+    height: 260px;
+    padding: 20px;
+}
+/****/
+.sugerencias2{
+    background: rgb(241, 230, 233);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    
+
+}
+.com-vegana{
+    background:rgb(241, 230, 233);
+    width: 30%;
+    text-align: start;
+    
+    padding: 40px;
+    color: rgb(10, 9, 9);
+    font-size: 20px;
+}
+footer{
+    background: rgb(10, 9, 9);
+    color: blanchedalmond;
+    font-size: 20px;
+    
+}
+
+/**/
+@media screen and (max-width:768px) {
+
+    .logopricipal img{
+        position: absolute;
+        top: 45px;
+        height: 27%;
+     
+    }
+	.texto-bienvenida h2{
+        font-size: 100%;
+    }
+    .texto-bienvenida h4{
+        font-size: 80%;
+    }
+    .galeria img {
+        
+        margin: 10px;
+        width: 300px;
+        height: 260px;
+        padding: 5px;
+        
+    
+    
+    }
+    .sugerencias,.sugerencias2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .com-normales,.com-vegana{
+        text-align: center;
+    }
+    .com-normales h2,.com-vegana h2{
+        font-size: 32px;
+    }
+    .com-normales p,.com-vegana p{
+        font-size: 22px;
+    }
+    .img-normal img{
+    
+        margin: 20px;
+        width: 350px;
+        height: 260px;
+        padding: 20px;
+        
+    }
+    
+    
+}
+@media screen and (max-width:520px){
+    .logopricipal img{
+        position: absolute;
+        top: 20px;
+        height: 27%;
+     
+    }
+
+}
+
+@media screen and (max-width:380px) {
+
+	.texto-bienvenida h2{
+        font-size: 60%;
+    }
+    .texto-bienvenida h4{
+        font-size: 50%;
+    }
+    .caja h2{
+        font-size: 22px;
+       
+    }
+   
+    .galeria img {
+        
+        margin: 10px;
+        width: 200px;
+        height: 160px;
+        padding: 5px;
+    
+    
+    }
+
+    .img-normal img{
+    
+        margin: 20px;
+        width: 200px;
+        height: 160px;
+        padding: 20px;
+    }
+    
+    .sugerencias,.sugerencias2{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        
+    }
+
+   
+}

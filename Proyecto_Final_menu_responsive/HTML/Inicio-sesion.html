@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="/TecnologiaWebI/Proyecto_Final_menu_responsive/CSS/inicio-sesion.css">
+</head>
+<body>
+    <header>
+        <div class="logopricipal">
+         <img src="/TecnologiaWebI/Proyecto_Final_con_CSS/IMAGENES/logo.png" > 
+        </div>
+
+        <div class="navegacion">
+            <ul class="menu"> 
+
+                <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+                
+                <li ><a href="/TecnologiaWebI/Proyecto_Final_menu_responsive/Index.html">Inicio</a></li>
+                <li ><a href="#">Menu </a> 
+                    <ul class="submenu">
+                        <br>
+            
+                        <li><a href="#">Comidas Normales</a></li>
+                       
+                        <li><a href="#">Comidas Veganas</a></li>
+
+                        <li><a href="#">Comidas Especiales</a></li>
+           
+                    </ul>
+                </li>
+    
+                <li><a href="#">Reservas</a>
+                    <ul class="submenu">
+                        <br>
+                        <li><a href="#">Registro</a></li>
+                        <li><a href="#">Inicio de Sesion</a></li>
+                    </ul>
+                </li>
+              
+                <li><a href="#">Servivios</a>
+                    <ul class="submenu"> 
+                        <br>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Recogo Personal</a></li>
+                    </ul>
+                </li>
+                
+                <li class="menu1"><a href="#">Contatos</a></li>
+            </ul>
+        </div>
+
+
+    </header>
+
+    <main>
+        <div class="fondo-resg">
+            <div class="titulo">
+                <h2>RESTAURANT </h2> 
+                <br>
+                <h2> NATURAL</h2>
+            </div>
+            <div class="registro">
+                <form action="">
+
+                    <label for="nombre">Ingresar Correo</label><br>
+                    <input type="email" id="usuario" required placeholder="correo@Gmail.com"><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" required placeholder="***********"><br>
+                    <div class="boton-caja">
+                        <input type="submit" id="boton" value="Entrar" name="Entrar" >
+                    </div>
+                    <br>
+                    <h4>¿Has olvidado tus datos de inicio de sesion?<a href="">Obten Ayuda</a></h4>
+                    <hr>
+                    <h4>¿No tienes cuenta?<a href="">Registrate</a></h4>
+                </form>
+                
+
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="/TecnologiaWebI/Proyecto_Final_menu_responsive/JS/java.js"></script>
+</body>
+</html>
