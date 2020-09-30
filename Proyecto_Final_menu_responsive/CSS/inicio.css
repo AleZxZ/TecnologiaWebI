@@ -357,10 +357,10 @@ footer{
         height: 27%;
      
     }
-	.texto-bienvenida h2{
+	.texto-bienvenida h1{
         font-size: 100%;
     }
-    .texto-bienvenida h4{
+    .texto-bienvenida h3{
         font-size: 80%;
     }
    
@@ -442,10 +442,10 @@ footer{
      
     }*/
     
-	.texto-bienvenida h2{
+	.texto-bienvenida h1{
         font-size: 60%;
     }
-    .texto-bienvenida h4{
+    .texto-bienvenida h3{
         font-size: 50%;
     }
     .caja h2{
