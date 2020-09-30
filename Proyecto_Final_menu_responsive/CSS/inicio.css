@@ -392,6 +392,8 @@ footer{
 
     .bienvenida{
         background: rgb(26, 24, 24) url(/TecnologiaWebI/Proyecto_Final_menu_responsive/IMAGENES/inicio_6_movil.jpg);
+        background-size: cover;
+    height: 700px;
     }
 	.texto-bienvenida h1{
         font-size: 60%;
