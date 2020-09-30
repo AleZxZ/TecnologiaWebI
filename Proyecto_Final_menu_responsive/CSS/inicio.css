@@ -30,13 +30,13 @@
         display: block;
         
 
-        color: white;
+        color: black;
         padding: 0.75rem;
         text-align: left;
         text-decoration: none;
     }
     .menu a:hover {
-        color: rgb(8, 7, 2);
+        color: white;
         transition: all .3s;
     }
     .submenu{
@@ -52,7 +52,7 @@
         padding: 10px;
         
 
-        color: white;
+        color: black;
     
         text-decoration: none;
     }
@@ -78,7 +78,7 @@
         display: flex;
     }
     .menu a:hover {
-        color: rgb(8, 7, 2);
+        color: white;
         transition: all .3s;
     }
     .menu li:first-child {
@@ -92,7 +92,7 @@
     .menu > li > a{
         display: block;
         padding: 15px 20px;
-        color: white;
+        color: rgb(12, 12, 12);
         
         text-decoration: none;
     }
@@ -106,7 +106,7 @@
         display: block;
         width: 130px;
         padding: 12px;
-        color: white;
+        color: rgb(12, 12, 12);
        
         text-decoration: none;
     }
@@ -360,7 +360,7 @@ footer{
 	.texto-bienvenida h1{
         font-size: 100%;
     }
-    .texto-bienvenida h3{
+    .texto-bienvenida p{
         font-size: 80%;
     }
    
@@ -445,7 +445,7 @@ footer{
 	.texto-bienvenida h1{
         font-size: 60%;
     }
-    .texto-bienvenida h3{
+    .texto-bienvenida p{
         font-size: 50%;
     }
     .caja h2{
