@@ -9,9 +9,6 @@
     background: rgb(176, 140, 48);
     color: rgb(255, 255, 255);
     font-size: 18px;
-   
-    
-
 }
 .navegacion ul{
     list-style: none;
@@ -117,9 +114,6 @@
     
     }
     
-
-	
-    
 }
 /******************desde aqui***/
 
@@ -129,14 +123,9 @@
     right: 0%;
     height: 37%;
     
-
-
-   
 }
 
 main {
-	/*font-family: 'Open Sans', sans-serif;*/
-    /*background: #000 url('imagenes/fondo.jpg');*/
     font-family: 'Merienda', cursive;
 	background-size: cover;
     background-attachment: fixed;
@@ -149,10 +138,9 @@ main {
     
 }
 .texto-bienvenida{
-   /* text-align: center;*/
+
     color:white;
     font-size: 60px;
-    
     text-align: center;
     text-decoration: wavy;
     position: relative;
@@ -170,11 +158,9 @@ main {
     background:white;
     margin: 40px;
     padding: 50px;
-
     position: relative;
     top: -100px;
     left: 20%;
-    
     
 }
 .presentacion h2{
@@ -189,8 +175,6 @@ main {
     width: 400px;
     height: 260px;
     padding: 5px;
-
-
 }
 /***********/
 .sugerencias{
@@ -198,13 +182,11 @@ main {
     display: flex;
     justify-content: space-around;
     
-
 }
 .com-normales{
     background:rgba(255, 255, 255, 0.911);
     width: 30%;
     text-align: start;
-    
     padding: 20px;
     color: rgb(10, 9, 9);
     font-size: 20px;
@@ -217,14 +199,11 @@ main {
     height: 260px;
     padding: 20px;
     box-shadow: 0px 15px 15px;
-    
 }
 .img-normal img:hover{
     
     opacity: 0.4;
     transition: all 1s;
-    
-   
 }
 
 /***************/
@@ -233,14 +212,11 @@ main {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    
-
 }
 .com-vegana{
     background:rgb(241, 230, 233);
     width: 30%;
     text-align: start;
-    
     padding: 40px;
     color: rgb(10, 9, 9);
     font-size: 20px;
@@ -252,15 +228,11 @@ main {
     background:white;
     display: flex;
     justify-content: space-around;
-    
-    
-
 }
 .com-especial{
     background:white;
     width: 30%;
     text-align: start;
-    
     padding: 40px;
     color: rgb(10, 9, 9);
     font-size: 20px;
@@ -270,7 +242,6 @@ main {
     background:  rgb(241, 230, 233);
     display: flex;
     justify-content: space-around;
-
 }
 .propietario{
     background: rgb(241, 230, 232);
@@ -290,8 +261,6 @@ footer{
 .Copyright{
    display: inline-flex;
    flex-direction: column;
-   
-   
 }
 
 :root{
@@ -363,10 +332,7 @@ footer{
     .texto-bienvenida p{
         font-size: 80%;
     }
-   
-   
-
-    .presentacion{
+   .presentacion{
         width: 45%;
         height: 370px;
        
@@ -384,8 +350,6 @@ footer{
         height: 260px;
         padding: 5px;
         
-    
-    
     }
     .sugerencias,.sugerencias2,.sugerencias3,.info{
         width: 100%;
@@ -409,19 +373,10 @@ footer{
         width: 350px;
         height: 260px;
         padding: 20px;
-        
     }
-    
-    
     .propietario{
         width: 36%;
     }
-    
-    
-    
-    
-    
-    
 }
 @media screen and (max-width:520px){
     .logopricipal img{
@@ -435,18 +390,9 @@ footer{
 
 @media screen and (max-width:380px) {
 
-   /* .logopricipal img{
-        position: absolute;
-        top: 25px;
-        height: 27%;
-     
-    }*/
     .bienvenida{
         background: rgb(26, 24, 24) url(/TecnologiaWebI/Proyecto_Final_menu_responsive/IMAGENES/inicio_6_movil.jpg);
-        
-        
     }
-    
 	.texto-bienvenida h1{
         font-size: 60%;
     }
@@ -465,8 +411,6 @@ footer{
         font-size: 15px;
         text-align: center;
         margin: 0;
-        
-        
     }
     .galeria img {
         
@@ -474,12 +418,9 @@ footer{
         width: 200px;
         height: 160px;
         padding: 5px;
-    
-    
     }
 
     .img-normal img{
-    
         margin: 20px;
         width: 200px;
         height: 160px;
@@ -491,21 +432,15 @@ footer{
         display: flex;
         flex-direction: column;
         width: 100%;
-        
-        
-        
     }
     .com-normales{
         width: 280px;
-       
     }
     .com-especial{
         width: 280px;
-
     }
     .com-vegana{
         width: 280px;
-
     }
     .propietario{
         width: 60%;
@@ -515,11 +450,6 @@ footer{
         flex-direction: column;
         width: 86%;
     }
-    
-    
-    
-    
-    
-    
+   
 }
 
