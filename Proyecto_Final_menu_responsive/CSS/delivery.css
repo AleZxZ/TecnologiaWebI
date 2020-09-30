@@ -142,7 +142,7 @@ main {
 .fondo-resg{
     background: rgb(26, 24, 24) url(/TecnologiaWebI/Proyecto_Final_menu_responsive/IMAGENES/registro-fondo.jpg);
     background-size: cover;
-    height: 900px;
+    height: 1100px;
     
     
 }
@@ -152,11 +152,11 @@ main {
 }
 form{
     width: 45%;
-    height: 550px;
+    height: 820px;
     background:rgb(0, 0, 0);
     padding: 60px;
     position: relative;
-    top: 200px;
+    top: 100px;
     
     color: white;
     opacity: 0.8;
@@ -176,12 +176,6 @@ form input{
     
 }
 
-.generos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
 .registro label{
     font-size: 20px;
     
@@ -215,36 +209,7 @@ form input{
     color:rgb(0, 0, 0) ;
     transition:background 1s,color 0.5s;
 }
-
-/************/
-@media screen and (max-width:768px) {
-
-    .logopricipal img{
-        position: absolute;
-        top: 45px;
-        height: 27%;
-     
-    }
-	
-}
-@media screen and (max-width:520px){
-    .logopricipal img{
-        position: absolute;
-        top: 20px;
-        height: 27%;
-     
-    }
-
-}
-
-@media screen and (max-width:380px) {
-
-   .logopricipal img{
-        position: absolute;
-        top: 20px;
-        height: 17%;
-     
-    }
-    
-
+#detalles{
+    width: 90%;
+    height: 200px;
 }

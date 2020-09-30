@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comidas Normales</title>
     <link rel="stylesheet" href="/TecnologiaWebI/Proyecto_Final_menu_responsive/CSS/normales.css">
+    <script src="https://kit.fontawesome.com/bf2c344b35.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -22,11 +25,11 @@
                       <ul class="submenu">
                           <br>
               
-                          <li><a href="#">Comidas Normales</a></li>
+                          <li><a href="/TecnologiaWebI/Proyecto_Final_menu_responsive/HTML/Com_normales.html">Comidas Normales</a></li>
                          
-                          <li><a href="#">Comidas Veganas</a></li>
+                          <li><a href="/TecnologiaWebI/Proyecto_Final_menu_responsive/HTML/Com_veganas.html">Comidas Veganas</a></li>
   
-                          <li><a href="#">Comidas Especiales</a></li>
+                          <li><a href="/TecnologiaWebI/Proyecto_Final_menu_responsive/HTML/Com_especiales.html">Comidas Especiales</a></li>
              
                       </ul>
                   </li>
@@ -34,20 +37,20 @@
                   <li><a href="#">Reservas</a>
                       <ul class="submenu">
                           <br>
-                          <li><a href="#">Registro</a></li>
-                          <li><a href="#">Inicio de Sesion</a></li>
+                          <li><a href="/TecnologiaWebI/Proyecto_Final_menu_responsive/HTML/Resgistro.html">Registro</a></li>
+                          <li><a href="/TecnologiaWebI/Proyecto_Final_menu_responsive/HTML/Inicio-sesion.html">Inicio de Sesion</a></li>
                       </ul>
                   </li>
                 
-                  <li><a href="#">Servivios</a>
+                  <li><a href="#">Servicios</a>
                       <ul class="submenu"> 
                           <br>
-                          <li><a href="#">Delivery</a></li>
-                          <li><a href="#">Recogo Personal</a></li>
+                          <li><a href="/TecnologiaWebI/Proyecto_Final_menu_responsive/HTML/Delivery.html">Delivery</a></li>
+                          
                       </ul>
                   </li>
                   
-                  <li class="menu1"><a href="#">Contatos</a></li>
+                  <li class="menu1"><a href="/TecnologiaWebI/Proyecto_Final_menu_responsive/HTML/Contactos.html">Contatos</a></li>
               </ul>
         </div>
   
@@ -77,25 +80,28 @@
                             de estilo occidental.
                         </p> 
                         <br>
-                        <p>
-                            PRECIO:150 Bs.-
-                        </p>
-                        <label for="cantidad">cantidad:</label>
-                        <select name="cantidad" id="cantidad">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                        </select>
-                        <div class="caja_boton">
-                            <input type="submit" value="Agregar al carrito" name="carrito" >
+                        <div class="detalle">
+                            <p>
+                                PRECIO:150 Bs.-
+                            </p>
+                            <label for="cantidad">cantidad:</label>
+                            <select name="cantidad" id="cantidad">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <div class="caja_boton">
+                                <input type="submit" class="boton" onclick="mensaje2()" id="boton" value="Agregar al carrito" name="carrito" >
+                            </div>
                         </div>
+
                 </div>
                 <div class="img-normal">
                     <img src="/TecnologiaWebI/Proyecto_Final_menu_responsive/IMAGENES/norm1.jpg" alt="">
@@ -119,6 +125,7 @@
 
                     </p>
                     <br>
+                     <div class="detalle">
                         <p>
                             PRECIO:60 Bs.-
                         </p>
@@ -136,8 +143,9 @@
                             <option value="10">10</option>
                         </select>
                         <div class="caja_boton">
-                            <input type="submit" value="Agregar al carrito" name="carrito" >
+                            <input type="submit" class="boton" onclick="mensaje2()" value="Agregar al carrito" name="carrito" >
                         </div>
+                     </div>
                 </div>
                 <div class="img-normal">
                     <img src="/TecnologiaWebI/Proyecto_Final_menu_responsive/IMAGENES/norm2.jpg" alt="">
@@ -163,25 +171,27 @@
 
                         </p> 
 
-                        <br>
-                        <p>
-                            PRECIO:50 Bs.-
-                        </p>
-                        <label for="cantidad">cantidad:</label>
-                        <select name="cantidad" id="cantidad">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                        </select>
-                        <div class="caja_boton">
-                            <input type="submit" value="Agregar al carrito" name="carrito" >
+                        <div class="detalle">
+                            
+                            <p>
+                                PRECIO:50 Bs.-
+                            </p>
+                            <label for="cantidad">cantidad:</label>
+                            <select name="cantidad" id="cantidad">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <div class="caja_boton">
+                                <input type="submit" class="boton" onclick="mensaje2()" value="Agregar al carrito" name="carrito" >
+                            </div>
                         </div>
                 </div>
                 <div class="img-normal">
@@ -205,25 +215,27 @@
                         </p>
 
                         <br>
-                        <p>
-                            PRECIO:80 Bs.-
-                        </p>
-                        <label for="cantidad">cantidad:</label>
-                        <select name="cantidad" id="cantidad">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                        </select>
-                        <div class="caja_boton">
-                            <input type="submit" value="Agregar al carrito" name="carrito" >
-                        </div> 
+                        <div class="detalle">
+                            <p>
+                                PRECIO:80 Bs.-
+                            </p>
+                            <label for="cantidad">cantidad:</label>
+                            <select name="cantidad" id="cantidad">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <div class="caja_boton">
+                                <input type="submit" class="boton" onclick="mensaje2()" value="Agregar al carrito" name="carrito" >
+                            </div> 
+                        </div>
                 </div>
                 <div class="img-normal">
                     <img src="/TecnologiaWebI/Proyecto_Final_menu_responsive/IMAGENES/inicio_1.jpg" alt="">
@@ -247,24 +259,26 @@
                         </p> 
 
                         <br>
-                        <p>
-                            PRECIO:30 Bs.-
-                        </p>
-                        <label for="cantidad">cantidad:</label>
-                        <select name="cantidad" id="cantidad">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                        </select>
-                        <div class="caja_boton">
-                            <input type="submit" value="Agregar al carrito" name="carrito" >
+                        <div class="detalle">
+                            <p>
+                                PRECIO:30 Bs.-
+                            </p>
+                            <label for="cantidad">cantidad:</label>
+                            <select name="cantidad" id="cantidad">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <div class="caja_boton">
+                                <input type="submit" class="boton" onclick="mensaje2()" value="Agregar al carrito" name="carrito" >
+                            </div>
                         </div>
                 </div>
                 <div class="img-normal">
@@ -277,9 +291,23 @@
     </main>
 
     <footer>
-        <p>Copyright  © 2020 |  Restaurat Natural </p class="smaller">
-         <script src="/TecnologiaWebI/Proyecto_Final_menu_responsive/JS/fecha.js"></script>
+        <div class="redes-container">
+                
+            <ul>
+                <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/?hl=es-la" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/?lang=es" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.pinterest.es/" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="https://web.whatsapp.com/" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="Copyright">
+            <p>Copyright  © 2020 |  Restaurat Natural </p class="smaller">
+            <script src="/TecnologiaWebI/Proyecto_Final_menu_responsive/JS/fecha.js"></script>
+        </div>
     </footer>
     <script src="/TecnologiaWebI/Proyecto_Final_menu_responsive/JS/java.js"></script>
+    <script src="/TecnologiaWebI/Proyecto_Final_menu_responsive/JS/mensajes.js"></script>
 </body>
 </html>

@@ -4,11 +4,11 @@
 	
 }
 .navegacion{
-    
+    font-family: 'Alice', serif;
     margin: 0px;
     background: rgb(176, 140, 48);
     color: blanchedalmond;
-   
+    
     
 
 }
@@ -146,24 +146,34 @@ main {
     
     
 }
-.titulo h2{
+/*.titulo h2{
+    font-family: 'Merienda', cursive;
     display: flex;
     justify-content: center;
-   
+    font-size: 60px;
     position: relative;
-    top: 130px;
-}
+    top: 30px;
+    margin: 0;
+    
+    color: #6a994e;
+   
+   
+}*/
 .registro{
     display: flex;
     justify-content: center;
 }
+.registro label{
+    font-size: 18px;
+}
 form{
+    font-family: 'Merienda', cursive;
     width: 45%;
     height: 500px;
     background:rgb(0, 0, 0);
     padding: 60px;
     position: relative;
-    top: 200px;
+    top: 160px;
     
     color: white;
     opacity: 0.8;
@@ -196,11 +206,62 @@ form input{
     border: 4px solid white;
     padding: 15px 25px 30px 25px;
     border-radius: 5px;
-   
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
     
 }
 #boton:hover{
     background: white;
     color:rgb(0, 0, 0) ;
     transition:background 1s,color 0.5s;
+}
+.texto1{
+   text-align: center;
+   margin-bottom: 120px;
+}
+.texto2{
+    margin: 10px;
+    text-align: center;
+    
+}
+/************/
+@media screen and (max-width:768px) {
+
+    .logopricipal img{
+        position: absolute;
+        top: 45px;
+        height: 27%;
+     
+    }
+    form{
+        height: 550px;
+    }
+	
+}
+@media screen and (max-width:520px){
+    .logopricipal img{
+        position: absolute;
+        top: 20px;
+        height: 27%;
+     
+    }
+    form{
+        height: 550px;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+
+   .logopricipal img{
+        position: absolute;
+        top: 20px;
+        height: 17%;
+     
+    }
+    form{
+        height: 550px;
+    }
+    
+
 }

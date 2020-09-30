@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Sesion</title>
-    <link rel="stylesheet" href="/TecnologiaWebI/Proyecto_Final_menu_responsive/CSS/inicio-sesion.css">
+    <title>Delivery</title>
+    <link rel="stylesheet" href="/TecnologiaWebI/Proyecto_Final_menu_responsive/CSS/delivery.css">
     <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
 </head>
@@ -58,28 +58,22 @@
 
     <main>
         <div class="fondo-resg">
-            <!--<div class="titulo">
-                <h2>RESTAURANT </h2> 
-                <br>
-                <h2> NATURAL</h2>
-            </div>-->
             <div class="registro">
                 <form action="">
-
-                    <label for="nombre">Ingresar Correo</label><br>
-                    <input type="email" id="usuario" required placeholder="correo@Gmail.com"><br>
-                    <label for="password">Password</label><br>
-                    <input type="password" id="password" required placeholder="***********"><br>
+                    <label for="nombre">Ingresar Nombre</label><br>
+                    <input type="text" id="nombre" required placeholder="Nombre completo"><br>
+                    <label for="nombre">Ingresar Apellido</label><br>
+                    <input type="text" id="nombre" required placeholder="Apellido completo"><br>
+                    <label for="nit">Ingresar su CI/NIT</label><br>
+                    <input type="number" id="nit" required placeholder="CI/NIT"><br>
+                    <label for="direccion">Ingrese su Direccion</label><br>
+                    <input type="text" id="direccion" required placeholder="Direccion"><br>
+                    <label for="numero">Ingrese su Telefono/Celular</label><br>
+                    <input type="number" id="numero" required placeholder="Telefono/Celular"><br>
+                    <textarea name="detalles" id="detalles" cols="30" rows="10" placeholder="Detalles de su Direccion"></textarea></textarea>
+    
                     <div class="boton-caja">
-                        <input type="submit" id="boton" value="Entrar" name="Entrar" >
-                    </div>
-                    <br>
-                    <div class="texto1">
-                        <h4>¿Has olvidado tus datos de inicio de sesion?<a href="">Obten Ayuda</a></h4>
-                    </div>
-                    <hr>
-                    <div class="texto2">
-                        <h4>¿No tienes cuenta?<a href="/TecnologiaWebI/Proyecto_Final_menu_responsive/HTML/Resgistro.html">Registrate</a></h4>
+                        <input type="submit" id="boton" onclick="mensaje()" value="Terminado" name="Terminado" >
                     </div>
                 </form>
                 
@@ -90,6 +84,6 @@
 
     </main>
 
-    <script src="/TecnologiaWebI/Proyecto_Final_menu_responsive/JS/java.js"></script>
+    <script src="/TecnologiaWebI/Proyecto_Final_menu_responsive/JS/mensajes.js"></script>
 </body>
 </html>
