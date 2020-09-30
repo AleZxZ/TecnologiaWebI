@@ -340,5 +340,65 @@ footer{
 .red-cont ul li .whatsapp:hover{
     background: var(--whatsapp);
 }
+@media screen and (max-width:768px) {
+
+    .logopricipal img{
+        position: absolute;
+        top: 45px;
+        height: 27%;
+     
+    }
+    .infox h2{
+        font-size: 30px;
+        padding: 14px;
+        color: sienna;
+        
+    }
+    .infox p{
+        font-size: 15px;
+        
+        
+    }
+    .info2 iframe{
+        padding: 5 px;
+        width: 80%;
+        height: 550px;
+    
+    }
+	
+}
+@media screen and (max-width:520px){
+    .logopricipal img{
+        position: absolute;
+        top: 20px;
+        height: 27%;
+     
+    }
+
+}
+
+@media screen and (max-width:380px) {
+
+   .logopricipal img{
+        position: absolute;
+        top: 20px;
+        height: 17%;
+     
+    }
+    .infox h2{
+        font-size: 25px;
+        
+        color: sienna;
+        
+    }
+    .infox p{
+        margin-left: 10px;
+        font-size: 13px;
+        
+        
+    }
+    
+
+}
 
 

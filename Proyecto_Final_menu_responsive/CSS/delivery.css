@@ -213,3 +213,34 @@ form input{
     width: 90%;
     height: 200px;
 }
+@media screen and (max-width:768px) {
+
+    .logopricipal img{
+        position: absolute;
+        top: 45px;
+        height: 27%;
+     
+    }
+	
+}
+@media screen and (max-width:520px){
+    .logopricipal img{
+        position: absolute;
+        top: 20px;
+        height: 27%;
+     
+    }
+
+}
+
+@media screen and (max-width:380px) {
+
+   .logopricipal img{
+        position: absolute;
+        top: 20px;
+        height: 17%;
+     
+    }
+    
+
+}
